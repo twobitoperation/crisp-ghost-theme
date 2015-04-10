@@ -15,6 +15,7 @@ html {
 }
 body {
 	padding: 2em 2.5em 1em 20em;
+	margin-top:66px;
 }                  
 /* Blocks */
 header {
@@ -25,6 +26,7 @@ header {
 	left: 0;
 	height:100%;
 	width:13.5em;
+	margin-top:66px;
 }
 #content {
 	display: block;
@@ -141,11 +143,11 @@ header h1 a:hover {
 	text-decoration:none;
 }
 header #logo img {
-	width:9em;
-	height:9em;
-	border-radius:4.5em;
+	/*width:9em;
+	height:9em;*/
+	/*border-radius:4.5em;
 	-moz-border-radius: 4.5em;
-	-webkit-border-radius: 4.5em;
+	-webkit-border-radius: 4.5em;*/
 	border: none;
 }
 #follow-icons {
