@@ -55,23 +55,5 @@
 	{{ghost_foot}}
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
-	<iframe allowtransparency="true" src="https://www.pickfu.com/site/navbar" scrolling="no" frameborder="0" style="width:100%; position:fixed; height:66px; top:0; left:0; background:none transparent;" id='pickfu-site-nav'></iframe>
-	<script type='text/javascript'>
-		function resizeIframe(){
-			var iframe_height = document.getElementById('pickfu-site-nav').contentWindow.document.body.offsetHeight;
-			$("#pickfu-site-nav").height();
-			if (iframe_height < 400) {
-				$("#pickfu-site-nav").css("position:absolute:top;");
-			}
-		}
-		$(document).ready(function() {
-		    $("#pickfu-site-nav").load(function(){
-		    	resizeIframe();
-			});
-		});
-		$(window).resize(function(){
-			resizeIframe();
-		});
-	</script>
 	</body>
 </html>
