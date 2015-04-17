@@ -1,6 +1,10 @@
 {{#foreach posts}}
 <section id="{{id}}" class="{{post_class}}">
-	{{image}}
+	{{#if image}}
+		<a href="{{url}}">
+			<img src="{{image}}" />
+		</a>
+	{{/if}}
 	<h3 class="post-title">
 		<a href="{{url}}">{{title}}</a>
 		<span class="separator"> &middot; </span>

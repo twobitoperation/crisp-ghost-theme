@@ -190,6 +190,8 @@ section.post img {
 	border-radius:0.25em;
 	-moz-border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
+	margin:0 20px 20px 0;
+	float:left;
 }
 .post-title .feature-star {
 	font-size: 0.9em;
