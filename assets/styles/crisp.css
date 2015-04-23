@@ -191,7 +191,13 @@ article.post h1.post-title + p {
 article.post p:last-of-type img {
 	float:left;
 	margin: 0 10px 10px 0;
-
+	max-height:200px;
+	max-width:100px;
+}
+article.post img {
+	border-radius: 0.25em;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
 }
 section.post {
 	border-bottom: 1px solid #eee;
@@ -230,6 +236,7 @@ section.post img {
 	margin-top:1.5em;
 	background-color:#eee;
 	padding:0.5em;
+	clear:both;
 }
 #comments {
 	margin-top: 0.15em;
