@@ -176,11 +176,22 @@ h1.post-title {
 	margin-top:0.35em;
 	margin-bottom: 0.6em;
 }
+h1.post
 h3.post-title {
 	margin-top:0.4em;
 	font-size: 1.2em;
 	color: #444;
 	/*padding-bottom:0.9em;*/
+}
+article.post h1.post-title + p {
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+/* this is typically a byline */
+article.post p:last-of-type img {
+	float:left;
+	margin: 0 10px 10px 0;
+
 }
 section.post {
 	border-bottom: 1px solid #eee;
